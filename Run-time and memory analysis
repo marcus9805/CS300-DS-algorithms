@@ -1,0 +1,19 @@
+Run-time and memory analysis:
+
+Cost per line:
+Reading a line: O(1)
+Parsing a line: O(1) (assuming split by commas is O(1))
+Creating course objects and adding to data structures:
+Vector: O(1) per insert
+Hash Table: O(1) on average per insert
+BST: O(log n) per insert in a balanced tree
+
+Menu Display: O(1)
+Search:
+Vector: O(n) for linear search
+Hash Table: O(1) on average for lookup
+BST: O(log n) for search
+Print All Courses 
+Vector: O(n log n) for sort + O(n) for print => O(n log n)
+Hash Table: O(n log n) for sort + O(n) for print => O(n log n)
+BST: O(n) for in-order traversal and print
